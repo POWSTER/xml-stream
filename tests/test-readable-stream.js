@@ -5,7 +5,7 @@ var fs = require('fs')
 	,	assert = require('assert')
 	, filename = require('path').resolve(__dirname, '../examples/collect-preserve.xml')
   , XmlStream = require('../lib/xml-stream')
-	,	Readable = require('stream').Readable || require('readable-stream');
+	,	Readable = require('stream').Readable;
 
 /**
  * Creates a stream w/ data.
